@@ -1,0 +1,1115 @@
+/* DEFINIÇÕES
+ * =================================================================== */
+
+ /* FONTES */
+
+@proximaBold: 'proxima_nova_rgbold';
+@proximaRegular: 'proxima_nova_rgregular';
+@proximaLight: 'proxima_novalight';
+
+/* CORES */
+
+@cinza-escuro: #333333;
+@cinza-medio: #5e5e5e;
+@cinza-claro: #f5f5f5;
+@cinza-borda: #dddddd;
+@vermelho: #e8442f;
+
+
+
+/* ===================================================================
+ * = 768
+ * =================================================================== */
+/* Tablet Portrait Size */
+
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+
+	h2{ }
+
+	div.main{ width: 740px; display: block; margin: auto; }
+
+	div.content{
+    	padding: 0px;
+    }
+    ul.banner{
+    	li{
+	    	div.box-txt{
+	            padding-top: 25%;
+
+	            h1{
+	                font-size: 80px;
+	            }
+	    	}
+    	}
+    }
+
+	div.topo-internas{
+		height: 400px;
+		margin-bottom: 80px;
+
+	    div.main{
+	        padding-top: 150px;
+
+	        h2{
+	            font-size: 100px;
+	        }
+	        h4 p{
+	            font-size: 26px;
+	            margin: auto;
+	            margin-top: 20px;
+	            color: #f5f5f5;
+	        }
+	    }
+	}
+
+    /* ROVEDO */
+
+    ul.banner-rovedo{
+	    width: 768px;
+	    margin: auto;
+	    display: table;
+
+        li{
+            height: 352px;
+
+	        div.desc-rovedo{
+
+	            h3{
+	                font-size: 50px;
+	                margin: 130px 0 50px;
+	            }
+	            h4{
+	                font-size: 20px;
+	                color: #fff;
+	                line-height: 24px;
+	                width: 300px;
+	                margin: auto;
+	            }
+	        }
+        }
+    }
+
+    ul.link-servicos{
+
+        li{
+            width: 24%;
+        }
+    }
+
+	.conteudo-rovedo{
+	    display: table;
+	    
+	    h3{
+	        text-align: center;
+	        font-size: 40px;
+	        margin-bottom: 40px;
+	    }
+	}
+
+    /* SERVIÇOS */
+	
+	div.calculos{
+	    display: block;
+	    float: left;
+	    width: 100%;
+
+	    div.main{
+	        padding: 0;
+	    }
+
+	    ul.lista-servicos{
+
+	        li{
+	            margin-bottom: 100px;
+	            width: 100%;
+            	padding-top: 60px;
+            	margin: 80px 0;
+
+	            div.imagem{
+	            	float: right;
+	            }
+
+	            div.texto{
+	                margin-top: 0;
+	                padding: 0 0 0 40px;
+
+	                h3{
+	                    font-size: 40px;
+	                    letter-spacing: -3px;
+	                    margin-bottom: 30px;
+	                }
+	                h4{
+	                    font-size: 18px;
+	                }
+	            }            
+
+	            &:nth-child(odd){
+
+	            	div.imagem{
+	            		float: left;
+	            	}
+	                div.texto{
+	                    padding: 0 50px 0 0;
+	                } 
+	            }
+	            &:last-child{
+	            	margin-bottom: 80px;
+	            }
+	        }
+	    }
+	}
+
+    /* PORFOLIO */
+
+    ul.portfolio-lista{
+		width: 765px;
+		margin-left: -25px;
+		margin-top: 0;
+		
+
+	    li.img-maior{
+	        width: 485px;
+	        height: 252px;
+
+	        img{
+				width: 485px;
+	        	height: 252px;
+	        }
+
+	        div.hover{
+	        
+	            a{
+	                font-size: 50px;
+	                line-height: 50px;
+	                margin: 20px 0 0 20px;
+	            }
+	        }
+	    }
+
+	    li.img-menor{
+	        width: 230px;
+	        height: 252px;
+
+	        img{
+	        	width: 230px;
+	        	height: 252px;
+	        }
+		    div.hover{
+	        
+	            a{
+	                font-size: 35px;
+	                line-height: 35px;
+	                margin: 30px 0 0 30px;
+	            }
+	        }	    
+	    }
+	}
+
+	/* PORTFOLIO INTERNA */
+	
+	div.single{
+
+	    h2{
+	        font-size: 80px !important;
+	        color: @cinza-escuro;
+	    }
+	    h4{
+	        color: @cinza-escuro;
+	    }
+
+	}
+	.relative{
+	  width: 768px;
+	  position: relative;
+	  margin: auto;
+	}
+
+	ul.banner-portfolio{
+	    width: 768px;
+	    margin: auto;
+	    display: table;
+	    margin-top: -140px;
+
+	    li{
+	        width: 100%;
+	        height: 352px;
+	        display: block;
+	        overflow: hidden;
+	        background: #222;
+
+	        img{
+	            width: 100%;
+	            height: 100%;
+	        }
+	    }
+	}
+	div.txt{
+		margin-bottom: 60px;
+	}
+	div.info-cliente{
+		margin-bottom: 60px;		
+	}
+
+    /* CONTATO */
+
+	div.bg-contato{
+		height: 250px;
+
+	    ul.contato{
+	        width: 790px;
+			margin-bottom: 80px;
+			margin-left: -20px;
+	        
+	        li{
+	            width: 231px;
+	            margin: 0 0 0 18px;
+
+	            span{
+	            	font-size: 18px;
+	            }
+	            span.end{
+	                font-size: 13px;
+	            } 
+	        }   
+	    }
+	}
+
+	div.orcamento{
+
+    	h3{
+    		font-size: 40px;
+    	}
+    	h5{
+    		font-size: 18px;
+    	}
+	
+	    ul#orcamento{
+	        margin-top: 50px;
+	        
+	        li{
+	            width: 20.5%;
+	            height: 40px;
+	            float: left;
+	            margin: 0 16px;
+
+		        input{
+		        }
+
+		        input[type=submit]{ 
+		            font-size: 16px;
+		        }  
+		    }
+	    }
+    }
+}
+
+
+/* ===================================================================
+ * = 480
+ * =================================================================== */
+/* Mobile Landscape Size */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	h2{ line-height: 105%;}
+
+	div.main{ width: 440px; display: block; margin: auto; }
+
+/* CABEÇALHO
+ * =================================================================== */
+
+	#header-menu { 
+		display: block;
+
+	    img.logo{
+	        width: 160px;
+	        margin-top: 15px;
+	    }
+	    ul.menu{
+	        display: none;
+	    }
+	    ul.menu-mobile{
+	    	display: block;
+	        float: right;
+	        padding-top: 11px;
+
+	        li{
+	            margin-top: 10px;
+
+                a{
+                    width: 30px;
+                    height: 30px;
+                    display: table;
+                    border: none;
+                    padding: 0;
+                    background: url(../imagens/menu-mobile.png) top no-repeat;
+                    
+                    &:active{
+                        background: url(../imagens/menu-mobile.png) bottom no-repeat;
+                    }
+                }
+	        }
+	    }
+	}
+    ul.menu-mobile-aberto{
+    	width: 200px;
+    	height: 300px;
+    	overflow: hidden;
+    	li{
+    			text-align: center;
+    			margin-bottom: 24px;
+    		a{
+    			font-family: @proximaBold;
+    			font-size: 20px;
+    			color: #fff;
+
+    			&:hover{
+    				color: @cinza-escuro;
+    			}
+    		}
+    	}
+    }
+
+/* RODAPÉ
+ * =================================================================== */
+
+	#footer-rodape { 
+
+	    span{
+	    	width: 100%;
+	        margin: auto;
+	        text-align: center;
+	    }
+	    ul{
+	    	width: 100%;
+	        margin: auto;
+	        margin-bottom: 30px;
+
+	        li{
+	        	margin-left: 42px;
+	        }
+	    }
+	}
+
+/* CONTEÚDO
+ * =================================================================== */
+
+	 ul.banner{
+
+	    li{
+	        padding-top: 80px;
+
+	        div.box-txt{
+	            padding-top: 15%;
+
+	            h1{
+	                font-size: 50px;
+	                line-height: 50px;
+	                margin-bottom: 30px;
+	            }
+	        }
+	    }
+	}
+	div.topo-internas{
+	    height: 300px;
+	    margin-bottom: 60px;
+
+	    div.main{
+	        text-align: center;
+	        padding-top: 100px;
+
+	        h2{
+	            font-size: 70px;
+	            margin: auto;
+	        }
+	        h4 p{
+	            font-size: 20px;
+	            margin: auto;
+	            margin-top: 20px;
+	        }
+	    }
+	}
+
+	div.content{
+    }
+
+    /* ROVEDO */
+
+    ul.banner-rovedo{
+	    width: 480px;
+	    margin: auto;
+	    display: table;
+
+        li{
+            height: 220px;
+            margin-bottom: 6px;
+
+	        div.desc-rovedo{
+
+	            h3{
+	                font-size: 35px;
+	                margin: 40px 0 30px;
+	            }
+	            h4{
+	                font-size: 20px;
+	                color: #fff;
+	                line-height: 24px;
+	                width: 200px;
+	                margin: auto;
+	            }
+	        }
+        }
+    }
+	.conteudo-rovedo {
+	
+		h3{
+			font-size: 40px;
+			margin-bottom: 40px;
+		}
+	}
+
+    /* SERVIÇOS */
+	
+	div.calculos{
+	    display: block;
+	    float: left;
+	    width: 100%;
+
+	    div.main{
+	        padding: 0;
+	    }
+
+	    ul.lista-servicos{
+
+	        li{
+	            padding-top: 60px;
+	            margin: 60px 0;
+
+	            div.imagem{
+	                width: 90%;
+	                margin: auto;
+	                float: none;
+
+	                img{
+	                    float: none;
+	                 }
+	            }
+
+	             div.texto{
+	                width: 100%;
+	                margin-top: 0px;
+	                margin-bottom: 40px;
+	                text-align: center;
+	                padding: 0;
+
+	                h3{
+	                    font-size: 40px;
+	                    letter-spacing: -2px;
+	                    text-align: center;
+	                    margin-bottom: 40px;
+	                }
+	                h4{
+	                    font-size: 20px;
+	                    text-align: center;
+	                    padding: 0 20px;
+	                }
+	            }            
+
+	            &:nth-child(odd){
+	                float: left;
+	                background: none;
+	                padding-top: 0;
+	                margin: 0;
+	                border-top: 0;
+
+	                div.imagem{
+	                    float: none;
+
+	                    img{
+	                        float: none;
+	                     }
+	                 }
+
+	                 div.texto{
+	                    float: none;
+
+	                    h2{
+	                    }
+	                    h4{
+	                    }
+	                } 
+	            }
+	            &:last-child{
+	                margin-bottom: 60px;
+	            }
+	        }
+	    }
+	}
+
+	/* PORTFOLIO */
+
+    ul.portfolio-lista{
+	    width: 500px;
+	    margin-left: -20px;
+	    margin-top: 0;
+
+	    li{
+	    	margin: 0 0 20px 20px;
+	    }
+
+	    li.img-maior{
+	        width: 440px;
+	        height: 228px;
+
+	        img{
+	        	width: 440px;
+	        	height: 228px;	
+	        }
+	        div.hover{
+	        
+	            a{
+	                font-size: 50px;
+	                line-height: 50px;
+	                margin: 20px 0 0 20px;
+	            }
+	        }
+	    }
+
+	    li.img-menor{
+	        width: 210px;
+	        height: 228px;
+
+	        img{
+	        	width: 210px;
+	       		height: 228px;
+	        }
+		    div.hover{
+	        
+	            a{
+	                font-size: 35px;
+	                line-height: 35px;
+	                margin: 20px 0 0 20px;
+	            }
+	        }	        
+	    }
+	}
+
+	/* PORTFOLIO INTERNA */
+
+	div.single{
+
+	    h2{
+	        font-size: 40px !important;
+	        color: @cinza-escuro;
+	        padding-top: 10px;
+	    }
+	    h4{
+	        color: @cinza-escuro;
+	    }
+
+	}
+    ul.banner-portfolio{
+	    width: 480px;
+	    margin: auto;
+	    display: table;
+    	margin-top: -120px;
+
+        li{
+            height: 220px;
+        }
+    }
+    ul.hide{
+    	li{
+    		&:last-child{
+    			display: none;
+    		}
+    	}
+    }
+
+	div.txt{
+	    width: 100%;
+	    float: left;
+	    margin-bottom: 60px;
+
+	    p{
+	        font-size: 18px;
+	        line-height: 22px;
+	    }
+	}
+
+	div.info-cliente{
+	    margin: 0 0 60px 0;
+	}
+
+	.relative{
+	  width: 480px;
+	  position: relative;
+	  margin: auto;
+	}
+
+	/* CONTATO */
+
+	div.bg-contato{
+		height: 750px;
+
+	    ul.contato{
+	        width: 430px;
+	        margin: 0 0 80px;
+	        
+	        li{
+	            width: 320px;
+	            margin: 0 0 25px 54px;
+	        }   
+	    }
+	}
+
+	div.orcamento{
+		margin-bottom: 0;
+
+	    h3{
+	        font-size: 40px;
+	        margin-bottom: 40px;
+	    }
+	    h5{
+	        font-size: 20px;
+	    }
+	    ul#orcamento{
+	        margin-top: 50px;
+	        display: table;
+
+	        li{
+	            width: 85%;
+	            height: 50px;
+	            margin: 0 0 20px; 
+	            padding: 0 0 0 20px;
+
+		        input{
+	            	width: 95%;
+		        }
+
+		        input[type=submit]{ 
+		        	height: 50px;
+		            font-size: 20px;
+		            width: 100%;
+		            border: none;
+		            padding: 0 20px;
+
+		            &:hover{
+		                background: @cinza-escuro;
+		                transition: background linear 0.2s;
+		                -webkit-transition: background linear 0.2s;
+		                -moz-transition: background linear 0.2s;
+		                -o-transition: background linear 0.2s;
+		            }
+		        }  
+		    }
+	    }
+	}
+}
+
+/* ===================================================================
+ * = 320
+ * =================================================================== */
+/* Mobile Portrait Size */
+
+@media only screen and (max-width: 479px) {
+	
+	h2{ line-height: 105%;}
+
+	div.main{ width: 300px; display: block; margin: auto; }
+
+/* CABEÇALHO
+ * =================================================================== */
+
+	#header-menu { 
+		display: block;
+
+	    img.logo{
+	        width: 160px;
+	        margin-top: 15px;
+	    }
+	    ul.menu{
+	        display: none;
+	    }
+	    ul.menu-mobile{
+	    	display: block;
+	        float: right;
+	        padding-top: 11px;
+
+	        li{
+	            margin-top: 10px;
+
+                a{
+                    width: 30px;
+                    height: 30px;
+                    display: table;
+                    border: none;
+                    padding: 0;
+                    background: url(../imagens/menu-mobile.png) top no-repeat;
+                    
+                    &:active{
+                        background: url(../imagens/menu-mobile.png) bottom no-repeat;
+                    }
+                }
+	        }
+	    }
+	}
+    ul.menu-mobile-aberto{
+    	width: 200px;
+    	height: 300px;
+    	overflow: hidden;
+    	li{
+    			text-align: center;
+    			margin-bottom: 24px;
+    		a{
+    			font-family: @proximaBold;
+    			font-size: 20px;
+    			color: #fff;
+
+    			&:hover{
+    				color: @cinza-escuro;
+    			}
+    		}
+    	}
+    }
+
+/* RODAPÉ
+ * =================================================================== */
+
+	#footer-rodape { 
+
+	    span{
+	    	width: 100%;
+	        margin: auto;
+	        text-align: center;
+	    }
+	    ul{
+	    	width: 100%;
+	        margin: auto;
+	        margin-bottom: 30px;
+
+	        li{
+	        	margin-left: 14px;
+	        }
+	    }
+	}
+
+/* CONTEÚDO
+ * =================================================================== */
+
+	 ul.banner{
+
+	    li{
+	        padding-top: 80px;
+
+	        div.box-txt{
+	            padding-top: 15%;
+
+	            h1{
+	                font-size: 50px;
+	                line-height: 50px;
+	                margin-bottom: 30px;
+	            }
+	        }
+	    }
+	}
+	div.topo-internas{
+	    height: 300px;
+	    margin-bottom: 60px; 
+
+	    div.main{
+	        text-align: center;
+	        padding-top: 100px;
+
+	        h2{
+	            font-size: 60px;
+	            margin: auto;
+	        }
+	        h4 p{
+	            font-size: 20px;
+	            margin: auto;
+	            margin-top: 20px;
+	        }
+	    }
+	}
+
+	div.content{
+    }
+
+    /* ROVEDO */
+
+    .conteudo-rovedo {
+    	h3{
+    		font-size: 40px;
+    		margin-bottom: 40px;
+    	}
+    }
+
+    ul.banner-rovedo{
+	    width: 300px;
+	    margin: auto;
+	    display: table;
+
+        li{
+            height: 138px;
+            margin-bottom: 6px;
+
+	        div.desc-rovedo{
+	        	width: 100%;
+
+	            h3{
+	                font-size: 35px;
+	                margin: 25px 0 20px;
+	            }
+	            h4{
+	                font-size: 20px;
+	                color: #fff;
+	                line-height: 24px;
+	                width: 280px;
+	                margin: auto;
+	            }
+	        }
+        }
+    }
+    ul.link-servicos{
+
+        li{
+            width: 100%;
+            margin-bottom: 6px;
+        }
+    }
+
+    /* SERVIÇOS */
+	ul.servicos{
+
+	    li{
+	        a{ 
+	            font-size: 13px;
+	        }
+	    }
+	}
+
+	div.calculos{
+	    display: block;
+	    float: left;
+	    width: 100%;
+
+	    div.main{
+	        padding: 0;
+	    }
+
+	    ul.lista-servicos{
+
+	        li{
+	            padding-top: 60px;
+	            margin: 60px 0;
+
+	            div.imagem{
+	                width: 90%;
+	                margin: auto;
+	                float: none;
+
+	                img{
+	                    float: none;
+	                 }
+	            }
+
+	             div.texto{
+	                width: 100%;
+	                margin-top: 0px;
+	                margin-bottom: 40px;
+	                text-align: center;
+	                padding: 0;
+
+	                h3{
+	                    font-size: 40px;
+	                    letter-spacing: -2px;
+	                    text-align: center;
+	                    margin-bottom: 40px;
+	                }
+	                h4{
+	                    font-size: 20px;
+	                    text-align: center;
+	                    padding: 0 20px;
+	                }
+	            }            
+
+	            &:nth-child(odd){
+	                float: left;
+	                background: none;
+	                padding-top: 0;
+	                margin: 0;
+	                border-top: 0;
+
+	                div.imagem{
+	                    float: none;
+
+	                    img{
+	                        float: none;
+	                     }
+	                 }
+
+	                 div.texto{
+	                    float: none;
+
+	                    h2{
+	                    }
+	                    h4{
+	                    }
+	                } 
+	            }
+	            &:last-child{
+	                margin-bottom: 60px;
+	            }
+	        }
+	    }
+	}
+
+	/* PORTFOLIO */
+
+    ul.portfolio-lista{
+	    width: 300px;
+	    margin-left: 0;
+		margin-top: 0;
+
+	    li{
+	    	margin: 0 0 20px 0;
+	    }
+
+	    li.img-maior{
+	        width: 300px;
+	        height: 158px;
+
+	        img{
+	        	width: 300px;
+	        	height: 158px;
+	        }
+		    div.hover{
+	        
+	            a{
+	                font-size: 35px;
+	                line-height: 35px;
+	                margin: 20px 0 0 20px;
+	            }
+	        }	        
+	    }
+
+	    li.img-menor{
+	        width: 300px;
+	        height: 328px;
+
+	        img{
+	        	width: 300px;
+	        	height: 328px;
+	        }
+	    }
+	}
+
+	/* PORTFOLIO INTERNA */
+
+	div.single{
+
+	    h2{
+	        font-size: 40px !important;
+	        color: @cinza-escuro;
+	        padding-top: 10px;
+	    }
+	    h4{
+	        color: @cinza-escuro;
+	    }
+
+	}
+    ul.banner-portfolio{
+	    width: 320px;
+	    margin: auto;
+	    display: table;
+    	margin-top: -140px;
+
+        li{
+            height: 138px;
+        }
+    }
+
+	div.txt{
+	    width: 100%;
+	    float: left;
+	    margin-bottom: 60px;
+
+	    p{
+	        font-size: 18px;
+	        line-height: 22px;
+	    }
+	}
+
+	div.info-cliente{
+	    margin: 0 0 60px 0;
+	}
+
+	.relative{
+	  width: 320px;
+	  position: relative;
+	  margin: auto;
+	}
+
+	/* CONTATO */
+
+	div.bg-contato{
+		height: 700px;
+
+	    ul.contato{
+	        width: 300px;
+	        margin: 0 0 40px;
+	        
+	        li{
+	            width: 300px;
+	            margin: 0 0 25px 0;
+	        }   
+	    }
+	}
+
+	div.orcamento{
+		margin-bottom: 0;
+
+	    h3{
+	        font-size: 40px;
+	        margin-bottom: 40px;
+	    }
+	    h5{
+	        font-size: 20px;
+	    }
+	    ul#orcamento{
+	        margin-top: 50px;
+	        display: table;
+
+	        li{
+	            width: 90%;
+	            height: 50px;
+	            margin: 0 0 10px; 
+	            padding: 0 0 0 20px;
+
+		        input{
+		            width: 88%;
+		        }
+
+		        input[type=submit]{ 
+		        	height: 50px;
+		            font-size: 20px;
+		            width: 95%;
+		            border: none;
+
+		            &:hover{
+		                background: @cinza-escuro;
+		                transition: background linear 0.2s;
+		                -webkit-transition: background linear 0.2s;
+		                -moz-transition: background linear 0.2s;
+		                -o-transition: background linear 0.2s;
+		            }
+		        }  
+		    }
+	    }
+	}
+}
+
+
+
+
